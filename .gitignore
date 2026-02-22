@@ -1,0 +1,13 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# AWS CLI and Zips
+terraform/awscliv2.zip
+terraform/aws/
+aws/
+dist/
+
+# Keys and Secrets
+*.pem
